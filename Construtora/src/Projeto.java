@@ -26,7 +26,7 @@ public class Projeto {
     public boolean vazio() {
         return true;
     }
-//Projeto projeto = new Projeto();
+
     
     public void setNome(String nome) {
              Iterator it = projetos.iterator();
@@ -41,9 +41,9 @@ public class Projeto {
             }
         }
         */
-        this.nome = nome;//Projeto projeto = new Projeto();
+        this.nome = nome;
         this.temNome = true;
-        //return this.nome == nome;
+        
     }
     
     public String getNome() {
@@ -59,7 +59,7 @@ public class Projeto {
         if (temNome){
             this.caracteristicas = caracteristicas; 
             
-            //return this.caracteristicas == caracteristicas;
+            
         }else
             throw new ExcecaoConstrutora("é preciso preencher o nome antes das características do projeto"); 
     }
@@ -89,7 +89,7 @@ public boolean pesquisarProjeto(String nomeASerPesquisado) {
 
     public void setPrazo(int dias) {
         this.prazo = dias;
-        //return this.prazo == dias;
+        
     }
 
     public int getPrazo() {
