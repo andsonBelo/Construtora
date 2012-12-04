@@ -19,8 +19,7 @@ public class ProjetoRevestimento extends Projeto {
         super.projetoRevestimento = true;
     }
 
-    
-   
+       
    public double getMetrosDeCeramica() {
         return metrosDeCeramica;
     }
@@ -62,6 +61,19 @@ public class ProjetoRevestimento extends Projeto {
     }
    
    
-    
+    public int CalculoQuantidadeDeFuncionarios(){
+        
+        
+        return 1;
+        /*de acordo com a quantidade que as variáveis forem setadas, o calculo
+         irá retornar números de funcionários (ex.: 1 encanador, 2 pedreiros, etc..) 
+         * necessários para executar o projeto no prazo (getPrazo()) estipulado e informado
+         * ao sistema.
+         * 
+         * Existe um orgão que diz qual a média de produção que um funcionário executa por dia
+         * ainda tenho que conversar com o meu cliente (meu irmão).
+         */       
+    }
+
     
 }
